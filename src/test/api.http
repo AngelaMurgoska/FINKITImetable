@@ -1,0 +1,15 @@
+GET http://localhost:8080/timetable/161018
+
+###
+
+GET http://localhost:8080/timetable/studentemail/angela.murgoska@students.finki.ukim.mk
+
+###
+
+GET http://localhost:8080/auth/role/161018
+
+###
+
+GET http://localhost:8080/timetable/filter/1?professorId=4
+
+###
