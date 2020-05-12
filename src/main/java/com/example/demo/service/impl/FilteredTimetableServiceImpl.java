@@ -50,6 +50,7 @@ public class FilteredTimetableServiceImpl implements FilteredTimetableService {
                 hourFrom = "0" + t.getHourFrom() + ":00";
             } else hourFrom = t.getHourFrom() + ":00";
 
+
             FilteredTimetable filteredTimetable = new FilteredTimetable(t.getSubject().getName(), t.getProfessor().getName(),
                     t.getStudentgroup(), t.getRoom(), hourFrom, t.getHourTo() + ":00", t.getDay());
             filteredTimetableList.add(filteredTimetable);
